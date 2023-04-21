@@ -1,0 +1,146 @@
+PROCESSINGS SENTENCE fish people fish tanks
+SPAN:  fish
+P(VP) = 0.1 
+P(NP) = 0.2 
+P(N) = 0.2 
+P(V) = 0.6 
+
+SPAN:  people
+P(NP) = 0.3 
+P(N) = 0.5 
+P(V) = 0.1 
+
+SPAN:  fish
+P(VP) = 0.1 
+P(NP) = 0.2 
+P(N) = 0.2 
+P(V) = 0.6 
+
+SPAN:  tanks
+P(NP) = 0.1 
+P(N) = 0.2 
+P(V) = 0.3 
+
+SPAN:  fish people
+P(VP) = 0.09 (BackPointer = (1,V,NP)) 
+P(NP) = 0.006 (BackPointer = (1,NP,NP)) 
+
+SPAN:  people fish
+P(VP) = 0.01 (BackPointer = (2,V,NP)) 
+P(NP) = 0.006 (BackPointer = (2,NP,NP)) 
+P(S) = 0.03 (BackPointer = (2,NP,VP)) 
+
+SPAN:  fish tanks
+P(VP) = 0.03 (BackPointer = (3,V,NP)) 
+P(NP) = 0.002 (BackPointer = (3,NP,NP)) 
+
+SPAN:  fish people fish
+P(VP) = 0.0018 (BackPointer = (1,V,NP)) 
+P(NP) = 0.00012 (BackPointer = (1,NP,NP)) 
+P(S) = 0.002 (BackPointer = (1,NP,VP)) 
+
+SPAN:  people fish tanks
+P(VP) = 0.0001 (BackPointer = (2,V,NP)) 
+P(NP) = 6e-05 (BackPointer = (2,NP,NP)) 
+P(S) = 0.009 (BackPointer = (2,NP,VP)) 
+
+SPAN:  fish people fish tanks
+P(VP) = 1.8e-05 (BackPointer = (1,V,NP)) 
+P(NP) = 1.2e-06 (BackPointer = (1,NP,NP)) 
+P(S) = 0.00018 (BackPointer = (2,NP,VP)) 
+
+PROCESSINGS SENTENCE people tanks fish
+SPAN:  people
+P(NP) = 0.3 
+P(N) = 0.5 
+P(V) = 0.1 
+
+SPAN:  tanks
+P(NP) = 0.1 
+P(N) = 0.2 
+P(V) = 0.3 
+
+SPAN:  fish
+P(VP) = 0.1 
+P(NP) = 0.2 
+P(N) = 0.2 
+P(V) = 0.6 
+
+SPAN:  people tanks
+P(VP) = 0.005 (BackPointer = (1,V,NP)) 
+P(NP) = 0.003 (BackPointer = (1,NP,NP)) 
+
+SPAN:  tanks fish
+P(VP) = 0.03 (BackPointer = (2,V,NP)) 
+P(NP) = 0.002 (BackPointer = (2,NP,NP)) 
+P(S) = 0.01 (BackPointer = (2,NP,VP)) 
+
+SPAN:  people tanks fish
+P(VP) = 0.0001 (BackPointer = (1,V,NP)) 
+P(NP) = 6e-05 (BackPointer = (1,NP,NP)) 
+P(S) = 0.009 (BackPointer = (1,NP,VP)) 
+
+PROCESSINGS SENTENCE people fish fish with rods
+SPAN:  people
+P(NP) = 0.3 
+P(N) = 0.5 
+P(V) = 0.1 
+
+SPAN:  fish
+P(VP) = 0.1 
+P(NP) = 0.2 
+P(N) = 0.2 
+P(V) = 0.6 
+
+SPAN:  fish
+P(VP) = 0.1 
+P(NP) = 0.2 
+P(N) = 0.2 
+P(V) = 0.6 
+
+SPAN:  with
+P(P) = 1.0 
+
+SPAN:  rods
+P(NP) = 0.1 
+P(N) = 0.1 
+
+SPAN:  people fish
+P(VP) = 0.01 (BackPointer = (1,V,NP)) 
+P(NP) = 0.006 (BackPointer = (1,NP,NP)) 
+P(S) = 0.03 (BackPointer = (1,NP,VP)) 
+
+SPAN:  fish fish
+P(VP) = 0.06 (BackPointer = (2,V,NP)) 
+P(NP) = 0.004 (BackPointer = (2,NP,NP)) 
+P(S) = 0.02 (BackPointer = (2,NP,VP)) 
+
+SPAN:  fish with
+
+SPAN:  with rods
+P(PP) = 0.1 (BackPointer = (4,P,NP)) 
+
+SPAN:  people fish fish
+P(VP) = 0.0002 (BackPointer = (1,V,NP)) 
+P(NP) = 0.00012 (BackPointer = (1,NP,NP)) 
+P(S) = 0.018 (BackPointer = (1,NP,VP)) 
+
+SPAN:  fish fish with
+
+SPAN:  fish with rods
+P(VP) = 0.006 (BackPointer = (3,V,PP)) 
+P(NP) = 0.004 (BackPointer = (3,NP,PP)) 
+
+SPAN:  people fish fish with
+
+SPAN:  fish fish with rods
+P(VP) = 0.0018 (BackPointer = (3,VP,PP)) 
+P(NP) = 8e-05 (BackPointer = (2,NP,NP)) 
+P(S) = 0.0012 (BackPointer = (2,NP,VP)) 
+
+SPAN:  people fish fish with rods
+P(VP) = 6e-06 (BackPointer = (3,VP,PP)) 
+P(NP) = 2.4e-06 (BackPointer = (1,NP,NP)) 
+P(S) = 0.00054 (BackPointer = (1,NP,VP)) 
+
+

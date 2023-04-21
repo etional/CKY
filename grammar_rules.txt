@@ -1,0 +1,7 @@
+S  NP VP	1.0VP  V NP	0.5VP  VP PP	0.3VP  V PP	0.1
+VP  fish	0.1NP  NP NP	0.1NP  NP PP	0.2
+NP  people	0.3
+NP  fish	0.2
+NP  tanks	0.1
+NP  rods	0.1
+PP  P NP	1.0N  people	0.5 N  fish  	0.2N  tanks 	0.2N  rods 	0.1V  people 	0.1V  fish   	0.6V  tanks  	0.3P  with 	1.0
